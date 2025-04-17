@@ -1,0 +1,19 @@
+/* Old User Panel for Single Column */
+/* Position of User Panel base on UI density */
+/* Compact */
+.density-compact .panels_c48ade {
+    left: calc(var(--custom-guild-list-width) + 17px) !important;
+    width: calc(100% - var(--custom-guild-list-width) - 17px) !important;
+}
+
+/* Default */
+.density-default .panels_c48ade {
+    left: calc(var(--custom-guild-list-width) + 10px) !important;
+    width: calc(100% - var(--custom-guild-list-width) - 10px) !important;
+}
+
+/* Spacious */
+.density-cozy .panels_c48ade {
+    left: calc(var(--custom-guild-list-width) + 1px) !important;
+    width: calc(100% - var(--custom-guild-list-width) - 1px) !important;
+}
