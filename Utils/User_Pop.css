@@ -4,12 +4,21 @@
 }
 
 /* Remove outer padding + remove custom nitro background for nitro user */
-.outer_c0bea0.custom-user-profile-theme {
+.outer_c0bea0 .custom-user-profile-theme {
     background: rgba(0, 0, 0, 0.4) !important;
     padding: 0;
 }
 
-.outer_c0bea0.custom-user-profile-theme .inner_c0bea0 {
+.outer_c0bea0 .custom-user-profile-theme .inner_c0bea0 {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Added dark shading for non-nitro user */
+.outer_c0bea0 {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.outer_c0bea0 .inner_c0bea0 {
     background: rgba(0, 0, 0, 0.4) !important;
 }
 
