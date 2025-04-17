@@ -1,5 +1,5 @@
 /* Remove all except friends */
-:where(.visual-refresh) .channel__972a0:not(.dm__972a0) .link__972a0:not([href="/channels/@me"]) {
+:where(.visual-refresh) .channel__972a0:not(.dm__972a0) .link__972a0:not([href="/channels/@me"]):not([href="/message-requests"]) {
     display: none;
 }
 
