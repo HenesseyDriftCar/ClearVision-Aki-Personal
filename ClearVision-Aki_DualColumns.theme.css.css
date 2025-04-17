@@ -1,0 +1,37 @@
+/**
+ * @name ClearVision V7 Aki Dual Column Edition
+ * @author ClearVision Team
+ * @version 7.0.0 pre
+ * @description Highly customizable theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v7
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+/* IMPORT CSS */
+
+/* Main theme */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/mainBD.css");
+
+/* Chat Panel */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Chat_Panel.css");
+
+/* DM Related */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/DM_Related.css");
+
+/* MemberList Related */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/MemberList_Related.css");
+
+/* Server Related */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Server_Related.css");
+
+/* User Panel */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/User_Panel.css");
+
+/* Old User Panel */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/User_Panel_DC.css");
+
+/* User Pop Up */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/User_Pop.css");
+
+/* Voice Chat */
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Voice_Chat.css");

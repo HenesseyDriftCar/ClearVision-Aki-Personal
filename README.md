@@ -1,45 +1,70 @@
-# ClearVision v7 - Customized by Aki
-
 <div align="center">
+
+# ClearVision v7 - Customized by Aki
 
 **Original Theme Repository**: [ClearVision v7](https://github.com/ClearVision/ClearVision-v7)
 
+---
+
 ## Previews
 
-#### Dual Columns Version
+### Dual Columns Version
 
-![Dual Columns Preview](Screenshots/DC.png)
+<img src="Screenshots/DC.png" alt="Dual Columns Preview">
 
-#### Single Column Version
+### Single Column Version
 
-![Single Column Preview](Screenshots/SC.png)
+<img src="Screenshots/SC.png" alt="Single Column Preview">
 
-</div>
-
----
+## </div>
 
 ## Installation
 
 ### Option 1: Manual Download
 
 1. Download your preferred version:
-   - [Single Column](https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/ClearVision-Aki_SingleColumn.css)
-   - [Dual Columns](https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/ClearVision-Aki_DualColumns.css)
+
+   **For Vencord:**
+
+- [Single Column](https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_SingleColumn.css)
+- [Dual Columns](https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_DualColumns.css)
+
+**For BetterDiscord:**
+
+- [Single Column](https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_SingleColumn.theme.css)
+- [Dual Columns](https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_DualColumns.theme.css)
+
 2. Place the downloaded file in your themes folder.
 
-### Option 2: Use Direct Links
+### Option 2: Use Online Theme
 
-#### Single Column Version
+**For Vencord:**
 
-```
-https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/ClearVision-Aki_SingleColumn.css
-```
+- **Single Column Version**
 
-#### Dual Columns Version
+  ```
+  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_SingleColumn.css
+  ```
 
-```
-https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/ClearVision-Aki_DualColumns.css
-```
+- **Dual Columns Version**
+
+  ```
+  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_DualColumns.css
+  ```
+
+**For BetterDiscord:**
+
+- **Single Column Version**
+
+  ```
+  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_SingleColumn.theme.css
+  ```
+
+- **Dual Columns Version**
+
+  ```
+  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_DualColumns.theme.css
+  ```
 
 ---
 
@@ -48,20 +73,19 @@ https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Cle
 ### Old User Panel (Enabled by Default)
 
 <div align="center">
-
-![Old User Panel Preview](Screenshots/UserPanel.png)
-
+<img src="Screenshots/UserPanel.png" alt="Old User Panel Preview">
 </div>
 
-- **Dual Columns**:
+- **Dual Columns**
 
   ```
-  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/User_Panel_DC.css
+  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Utils/User_Panel_DC.css
   ```
 
-- **Single Column**:
+- **Single Column**
+
   ```
-  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/User_Panel_SC.css
+  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Utils/User_Panel_SC.css
   ```
 
 ---
@@ -69,13 +93,11 @@ https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Cle
 ### No Search Bar
 
 <div align="center">
-
-![No Search Bar Preview](Screenshots/NoSearchBar.png)
-
+<img src="Screenshots/NoSearchBar.png" alt="No Search Bar Preview">
 </div>
 
 ```
-https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/No_SearchBar.css
+https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Utils/No_SearchBar.css
 ```
 
 ---
@@ -83,17 +105,15 @@ https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Uti
 ### Friends Only Mode
 
 <div align="center">
-
-![Friends Only Mode Preview](Screenshots/FriendsOnly.png)
-
+<img src="Screenshots/FriendsOnly.png" alt="Friends Only Mode Preview">
 </div>
 
 ```
-https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Friends_Only.css
+https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Utils/Friends_Only.css
 ```
 
 ---
 
 ## Advanced Customization
 
-For further customization, consider forking the repository and tailoring it to your preferences.
+For further customization, fork the repository and tailor it to your preferences.
