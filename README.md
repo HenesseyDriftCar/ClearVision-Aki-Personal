@@ -68,6 +68,17 @@
 
 ---
 
+### Custom Background Image
+
+Replace the URL inside `url()` with the link to your desired image.
+
+```css
+/* Custom Background Image */
+:root {
+  --background-image: url(https://i.imgur.com/zU7YY60.jpeg);
+}
+```
+
 ## Optional Add-ons
 
 ### Old User Panel (Enabled by Default)
