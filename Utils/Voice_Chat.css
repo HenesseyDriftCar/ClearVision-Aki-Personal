@@ -1,5 +1,5 @@
-/* Voice chat user glow effect for both username and profile picture */
-.avatarSpeaking__07f91 {
+/* Old version */
+/* .avatarSpeaking__07f91 {
     background-color: #1e63b3;
     box-shadow: 0 0 10px #1e63b3, 0 0 20px #1e63b3;
     border-radius: 5px;
@@ -22,9 +22,26 @@
     align-items: center;
 }
 
-/* Username in voice chat */
 .usernameFont__07f91 {
     font-weight: 700;
     text-shadow: #000000 0px 0px 3px;
     padding-left: 5px;
+} */
+
+/* New Voice Chat Version */
+.content__07f91:has(.usernameSpeaking__07f91, .avatarSpeaking__07f91) {
+    background: linear-gradient(to right, var(--hover-color), #4a91e200);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: background 1s ease, box-shadow 0.05s ease;
+}
+
+.usernameSpeaking__07f91 {
+    font-weight: 550;
+}
+
+.avatarSpeaking__07f91 {
+    box-shadow: none;
 }
