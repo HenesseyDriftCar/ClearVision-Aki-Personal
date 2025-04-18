@@ -1,0 +1,5 @@
+/* Hide "Send a gift" button */
+.buttons__74017[aria-label="Send a gift"],
+button[aria-label="Send a gift"] {
+    display: none !important;
+}
