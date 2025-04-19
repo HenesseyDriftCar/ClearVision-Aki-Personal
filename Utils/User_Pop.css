@@ -15,11 +15,11 @@
 
 /* Added dark shading for non-nitro user */
 .outer_c0bea0 {
-    background: rgba(0, 0, 0, 0.4) !important;
+    background: var(--background-image) no-repeat center center / cover !important;
 }
 
 .outer_c0bea0 .inner_c0bea0 {
-    background: rgba(0, 0, 0, 0.4) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Gradient top banner */

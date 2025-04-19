@@ -35,7 +35,7 @@
     padding-bottom: 4px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    transition: background 1s ease, box-shadow 0.05s ease;
+    transition: background 1s ease;
 }
 
 .usernameSpeaking__07f91 {
