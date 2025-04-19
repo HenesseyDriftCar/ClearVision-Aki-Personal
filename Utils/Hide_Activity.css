@@ -1,0 +1,9 @@
+/* Hide activity header */
+.visual-refresh .membersGroup_c8ffbb:has(.toggleExpandIcon__095fe) {
+    display: none;
+}
+
+/* Hide member's activities */
+.visual-refresh .container__0f2e8 {
+    display: none;
+}
