@@ -125,6 +125,18 @@ https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Utils/Friends_
 
 ---
 
+### No Activity (Hide it totally)
+
+<div align="center">
+<img src="Screenshots/No_Activity.png" alt="No Activity Preview">
+</div>
+
+```
+https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Utils/Hide_Activity.css
+```
+
+---
+
 ## Advanced Customization
 
 For further customization, fork the repository and tailor it to your preferences.
