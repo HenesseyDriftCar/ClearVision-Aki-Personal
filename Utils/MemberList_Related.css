@@ -22,7 +22,10 @@
 
 /* Usernames in servers */
 .username__5d473 {
-    /* not bold text */
     font-weight: 600;
+}
 
+/* User activity color */
+.subText__91a9d .overflow__82b15 strong {
+    color: var(--main-color);
 }
