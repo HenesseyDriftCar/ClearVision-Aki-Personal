@@ -73,3 +73,12 @@
 .content__908e2 {
     color: rgb(99, 172, 255);
 }
+
+/* Divider for new chat */
+.unreadPill__908e2 {
+    background-color: var(--main-color);
+}
+
+.divider__908e2:has(.unreadPill__908e2) {
+    --divider-color: var(--main-color);
+}

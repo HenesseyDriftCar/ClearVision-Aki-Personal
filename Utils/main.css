@@ -78,7 +78,7 @@
 /* DARK THEME - NEW UI EXCLUSIVE */
 :is(.theme-darker, .theme-light .theme-darker) {
   --background-shading: rgba(0, 0, 0, 0.75);
-  --card-shading: rgba(0, 0, 0, 0.4);
+  --card-shading: rgba(0, 0, 0, 0.5);
   --popout-shading: rgba(0, 0, 0, 0.7);
   --modal-shading: rgba(0, 0, 0, 0.5);
   --input-shading: rgba(255, 255, 255, 0.05);
