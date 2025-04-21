@@ -71,7 +71,7 @@
 
 /* Date Time divider in chat */
 .content__908e2 {
-    color: rgb(99, 172, 255);
+    color: var(--main-color);
 }
 
 /* Divider for new chat */

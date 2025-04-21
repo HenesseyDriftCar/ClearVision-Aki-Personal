@@ -20,7 +20,7 @@
 
 /* DM background dim */
 .visual-refresh .privateChannels__35e86 {
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--card-shading);
 }
 
 /* Friends List size */
