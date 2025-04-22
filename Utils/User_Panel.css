@@ -21,9 +21,9 @@ nav.guilds_c48ade {
 }
 
 /* Activity panel border */
-.visual-refresh .panel__5dec7 {
+/* .visual-refresh .panel__5dec7 {
     border-bottom: 1px solid rgba(225, 240, 253, 0.123);
-}
+} */
 
 /* Voice chat panel border */
 .wrapper_e131a9 {
@@ -33,4 +33,19 @@ nav.guilds_c48ade {
 /* Voice chat button */
 .visual-refresh .button_e131a9.buttonColor_e131a9.buttonColor_e131a9 {
     background: rgba(255, 255, 255, 0.089);
+}
+
+/* Nameplate */
+.container__4bbc6 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    left: -4px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    width: 104%;
+    background: linear-gradient(90deg, rgba(1, 49, 194, 0.6) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
 }
