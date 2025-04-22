@@ -1,5 +1,5 @@
 /* Hide activity header */
-.visual-refresh .membersGroup_c8ffbb:has(.toggleExpandIcon__095fe) {
+.visual-refresh .membersGroup_c8ffbb:has(.headerContainer__095fe) {
     display: none;
 }
 

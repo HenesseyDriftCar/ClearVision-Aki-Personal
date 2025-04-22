@@ -32,3 +32,8 @@
 .subtext__0a06e {
     color: white;
 }
+
+/* Nitro Store popout */
+.contentOverlay__3f6fc {
+    background: var(--popout-shading) !important;
+}
