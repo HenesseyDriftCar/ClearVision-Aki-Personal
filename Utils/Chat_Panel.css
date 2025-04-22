@@ -5,7 +5,7 @@
 
 /* Chat header */
 .visual-refresh .title_f75fb0 {
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--card-shading);
     /* border-radius: 10px; */
     border-bottom: 1px solid rgba(225, 240, 253, 0.123);
 }
@@ -34,7 +34,7 @@
 /* Chat input */
 .scrollableContainer__74017,
 .themedBackground__74017 {
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--card-shading);
 }
 
 /* Mention */

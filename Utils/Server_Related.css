@@ -42,7 +42,7 @@
 
 /* Channels list + Server name above it*/
 .visual-refresh .container__2637a {
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--card-shading);
 }
 
 /* Idk how to explain this kek */

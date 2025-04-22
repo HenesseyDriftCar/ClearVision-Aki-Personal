@@ -19,7 +19,7 @@
 }
 
 .outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
-    background: rgba(0, 0, 0, 0.6) !important;
+    background: var(--card-shading) !important;
 }
 
 /* Gradient top banner */

@@ -1,8 +1,8 @@
 /* USER PANEL */
 /* Transparent user panel */
 .visual-refresh .panels_c48ade {
-    background: rgba(0, 0, 0, 0.411) !important;
-    backdrop-filter: rgba(0, 0, 0, 0.411) !important;
+    background: var(--card-shading) !important;
+    backdrop-filter: var(--card-shading) !important;
     border-radius: 10px;
     border: 1px solid rgba(225, 240, 253, 0.123);
     padding: 0px;
