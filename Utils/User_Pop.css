@@ -27,3 +27,8 @@
 /* .mask__68edb {
     mask: linear-gradient(black, transparent);
 } */
+
+/* Remove Guild Tag Banner */
+.banner__86ab2 {
+    background: rgba(0, 0, 0, 0) !important;
+}
