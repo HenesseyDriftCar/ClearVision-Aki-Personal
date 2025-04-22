@@ -35,3 +35,9 @@
 .username__703b9[style^="color:"]:after {
     background: linear-gradient(to right, currentColor, transparent);
 }
+
+/* For user with nameplate only */
+/* .nameplated__91a9d .username__703b9[style^="color:"]::before,
+.nameplated__91a9d .username__703b9[style^="color:"]::after {
+    background: linear-gradient(to right, currentColor, transparent);
+} */
