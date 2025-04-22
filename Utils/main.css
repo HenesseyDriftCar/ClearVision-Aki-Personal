@@ -66,10 +66,10 @@
 
 /* ASH THEME / DARK THEME IN OLD UI */
 :is(.theme-dark, .theme-light .theme-dark) {
-  --background-shading: rgba(0, 0, 0, 0.4);
-  --card-shading: rgba(0, 0, 0, 0.3);
+  --background-shading: rgba(0, 0, 0, 0.6);
+  --card-shading: rgba(0, 0, 0, 0.5);
   --popout-shading: rgba(0, 0, 0, 0.6);
-  --modal-shading: rgba(0, 0, 0, 0.4);
+  --modal-shading: rgba(0, 0, 0, 0.5);
   --input-shading: rgba(255, 255, 255, 0.05);
   --normal-text: #d8d8db;
   --muted-text: #aeaeb4;

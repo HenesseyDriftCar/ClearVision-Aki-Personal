@@ -5,9 +5,9 @@
 }
 
 /* Category background*/
-.visual-refresh .mainContent__29444 {
+/* .visual-refresh .mainContent__29444 {
     background: rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Category text */
 .visual-refresh .name__29444 {
@@ -24,7 +24,7 @@
 /* Server list */
 .visual-refresh .guilds_c48ade {
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--card-shading);
     border: 1px solid rgba(225, 240, 253, 0.123) !important;
 }
 
