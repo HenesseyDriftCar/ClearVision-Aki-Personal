@@ -86,6 +86,9 @@ Replace the URL inside `url()` with the link to your desired image.
 <div align="center">
 <img src="Screenshots/UserPanel.png" alt="Old User Panel Preview">
 </div>
+<div align="center">
+<img src="Screenshots/NamePlate.png" alt="User with Nameplate Preview">
+</div>
 
 - **Dual Columns**
 
