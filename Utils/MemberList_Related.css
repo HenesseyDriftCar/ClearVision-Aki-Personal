@@ -31,9 +31,17 @@
 }
 
 /* Selected user background */
-.username__703b9[style^="color:"]:before,
-.username__703b9[style^="color:"]:after {
+.username__703b9:before {
+    background: none;
+}
+
+.username__703b9:after {
     background: linear-gradient(to right, currentColor, transparent);
+}
+
+/* Fix tag on username */
+.username__703b9 {
+    overflow: hidden;
 }
 
 /* For user with nameplate only */
