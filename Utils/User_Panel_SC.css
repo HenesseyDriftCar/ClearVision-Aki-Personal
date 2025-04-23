@@ -8,8 +8,8 @@
 
 /* Default */
 .density-default .panels_c48ade {
-    left: calc(var(--custom-guild-list-width) + 10px) !important;
-    width: calc(100% - var(--custom-guild-list-width) - 10px) !important;
+    left: calc(var(--custom-guild-list-width) + 9px) !important;
+    width: calc(100% - var(--custom-guild-list-width) - 9px) !important;
 }
 
 /* Spacious */

@@ -36,12 +36,16 @@ nav.guilds_c48ade {
 }
 
 /* Nameplate */
-.panels_c48ade .container__4bbc6 {
+.panels_c48ade:has(.activityPanel_c48ade) .container__4bbc6,
+.panels_c48ade:has(.container_e131a9) .container__4bbc6 {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
-    left: -4px;
+}
+
+.panels_c48ade .container__4bbc6 {
+    border-radius: inherit;
     top: -1px;
     width: 104%;
     background: linear-gradient(90deg, rgba(1, 49, 194, 0.6) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
