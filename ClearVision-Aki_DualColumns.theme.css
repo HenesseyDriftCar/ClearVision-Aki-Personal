@@ -10,38 +10,38 @@
 /* IMPORT CSS */
 
 /* Main theme */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/mainBD.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/mainBD.css");
 
 /* Chat Panel */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Chat_Panel.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/Chat_Panel.css");
 
 /* DM Related */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/DM_Related.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/DM_Related.css");
 
 /* MemberList Related */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/MemberList_Related.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/MemberList.css");
 
 /* Server Related */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Server_Related.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/Server_Related.css");
 
 /* User Panel */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/User_Panel.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/User_Panel.css");
 
 /* Old User Panel */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/User_Panel_DC.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/User_Panel_DC.css");
 
 /* User Pop Up */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/User_Pop.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/User_Pop.css");
 
 /* Nameplate */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Nameplate.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/Nameplate.css");
 
 /* Settings */
-@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Settings.css");
+@import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/Settings.css");
 
 
 /* Voice Chat (CV Team updated it!) */
-/* @import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Utils/Voice_Chat.css"); */
+/* @import url("https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/main/Themes/Voice_Chat.css"); */
 
 /* Custom Pic */
 :root {

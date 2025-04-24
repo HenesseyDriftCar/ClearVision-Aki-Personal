@@ -94,13 +94,13 @@ Replace the URL inside `url()` with the link to your desired image.
 - **Dual Columns**
 
   ```
-  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Utils/User_Panel_DC.css
+  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Themes/User_Panel_DC.css
   ```
 
 - **Single Column**
 
   ```
-  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Utils/User_Panel_SC.css
+  https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/Themes/User_Panel_SC.css
   ```
 
 ---
