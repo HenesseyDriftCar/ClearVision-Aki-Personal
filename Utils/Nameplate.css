@@ -29,6 +29,6 @@
 }
 
 /* --------------------------- TWILIGHT --------------------------- */
-.container__4bbc6:has(.videoContainer__4bbc6 video[src="https://cdn.discordapp.com/assets/collectibles/nameplates/nameplates/twilight/asset.webm"]) {
+.container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]) {
     background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
 }
