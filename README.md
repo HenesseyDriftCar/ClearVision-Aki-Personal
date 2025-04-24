@@ -83,10 +83,12 @@ Replace the URL inside `url()` with the link to your desired image.
 
 ### Old User Panel (Enabled by Default)
 
+#### In voice chat with activity:
 <div align="center">
 <img src="Screenshots/UserPanel.png" alt="Old User Panel Preview">
 </div>
 
+#### With nameplate on:
 <div align="center">
 <img src="Screenshots/NamePlate.png" alt="User with Nameplate Preview">
 </div>
