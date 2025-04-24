@@ -31,11 +31,8 @@
 }
 
 /* Selected user background */
-.username__703b9:before {
-    background: none;
-}
-
-.username__703b9:after {
+.nameContainer__703b9[style^="color:"]:before,
+.nameContainer__703b9[style^="color:"]:after {
     background: linear-gradient(to right, currentColor, transparent);
 }
 

@@ -1,0 +1,34 @@
+/* --------------------------- GLOBAL --------------------------- */
+
+/* Nameplate size */
+.container__4bbc6 {
+    left: 7px;
+    width: 97%;
+}
+
+/* Clearer nameplate (mostly for member list) */
+.videoContainer__4bbc6 {
+    mask-image: none !important;
+}
+
+/* USER PANEL */
+.panels_c48ade:has(.activityPanel_c48ade) .container__4bbc6,
+.panels_c48ade:has(.container_e131a9) .container__4bbc6 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.panels_c48ade .container__4bbc6 {
+    border-radius: inherit;
+    left: -4px;
+    top: -2px;
+    height: 103%;
+    width: 104%;
+}
+
+/* --------------------------- TWILIGHT --------------------------- */
+.container__4bbc6:has(.videoContainer__4bbc6 video[src="https://cdn.discordapp.com/assets/collectibles/nameplates/nameplates/twilight/asset.webm"]) {
+    background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
+}
