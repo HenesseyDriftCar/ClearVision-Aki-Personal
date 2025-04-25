@@ -28,6 +28,18 @@
     width: 105%;
 }
 
+/* Remove border for VC panel and activity panel */
+.visual-refresh .panels_c48ade:has(.container__4bbc6) .wrapper_e131a9,
+.visual-refresh .panels_c48ade:has(.container__4bbc6) .panel__5dec7 {
+    border-bottom: 0px solid rgba(225, 240, 253, 0.123);
+}
+
+/* Add border when VC panel and activity panel both appear */
+.visual-refresh .panels_c48ade:has(.container_e131a9) .panel__5dec7 {
+    border-bottom: 1px solid rgba(225, 240, 253, 0.123);
+}
+
+
 /* --------------------------- SPECIFIC NAMEPLATE --------------------------- */
 
 /* Twilight */
