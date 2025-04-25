@@ -8,27 +8,27 @@
     padding: 0;
 }
 
+/* Remove Guild Tag Banner */
+.banner__86ab2 {
+    background: transparent !important;
+}
+
 /* .outer_c0bea0.custom-user-profile-theme .inner_c0bea0 {
     
 } */
 
-/* Added background and shading for non-nitro user */
-.outer_c0bea0:not(.custom-user-profile-theme) {
+/* Added background and shading for non-nitro user (FIXED BY CV TEAM) */
+/* .outer_c0bea0:not(.custom-user-profile-theme) {
     background: var(--background-image) no-repeat center center / cover !important;
     padding: 0;
 }
 
 .outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
     background: var(--card-shading) !important;
-}
+} */
 
 /* Gradient top banner */
 /* Might need to delete remove banner on top for it to work.... */
 /* .mask__68edb {
     mask: linear-gradient(black, transparent);
 } */
-
-/* Remove Guild Tag Banner */
-.banner__86ab2 {
-    background: rgba(0, 0, 0, 0) !important;
-}
