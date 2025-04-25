@@ -113,3 +113,8 @@
 .vc-shiki-container {
   background-color: rgba(0, 0, 0, 0) !important;
 }
+
+/* User activity color */
+.overflow__82b15 strong {
+  color: var(--main-color);
+}

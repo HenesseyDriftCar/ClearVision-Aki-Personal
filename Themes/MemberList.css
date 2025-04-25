@@ -25,11 +25,6 @@
     font-weight: 600;
 }
 
-/* User activity color */
-.subText__91a9d .overflow__82b15 strong {
-    color: var(--main-color);
-}
-
 /* Selected user background */
 .nameContainer__703b9[style^="color:"]:before,
 .nameContainer__703b9[style^="color:"]:after {
