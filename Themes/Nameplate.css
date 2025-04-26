@@ -40,13 +40,21 @@
 }
 
 /* Clearer nameplate display globally */
+.img__4bbc6,
+/* on member list */
+.img__4bbc6.hover__4bbc6,
+.img__4bbc6.selected__4bbc6,
+/* on store */
+.img__4bbc6.preview__4bbc6,
+/* on user panel */
 .img__4bbc6.account__4bbc6,
 .img__4bbc6.account__4bbc6.hover__4bbc6,
-.img__4bbc6,
-.img__4bbc6.hover__4bbc6,
-.img__4bbc6.preview__4bbc6 {
+/* on dm */
+.img__4bbc6.channel__4bbc6.selected__4bbc6,
+.img__4bbc6.channel__4bbc6.hover__4bbc6 {
     opacity: 1;
 }
+
 
 
 /* --------------------------- SPECIFIC NAMEPLATE --------------------------- */
