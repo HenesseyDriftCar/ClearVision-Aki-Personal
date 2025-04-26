@@ -47,3 +47,8 @@
 .nameplated__91a9d .username__703b9[style^="color:"]::after {
     background: linear-gradient(to right, currentColor, transparent);
 } */
+
+/* Tag and Owner only on hover */
+.memberInner__5d473 :not(.selected, :hover) :is(.clanTag__5d473, .ownerIcon__5d473) {
+    display: none
+}
