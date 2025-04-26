@@ -82,3 +82,12 @@
 .divider__908e2:has(.unreadPill__908e2) {
     --divider-color: var(--main-color);
 }
+
+/* Server Invite link display */
+.guildInviteContainer__083ae {
+    background: var(--card-shading);
+}
+
+.footerContent__083ae {
+    background: none;
+}
