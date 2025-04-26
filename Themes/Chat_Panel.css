@@ -91,3 +91,10 @@
 .footerContent__083ae {
     background: none;
 }
+
+/* More visible Delete Message button */
+.colorDanger_c1e9c4,
+.colorDanger_c1e9c4 .label_c1e9c4 {
+    color: rgb(255, 64, 64);
+    font-weight: 600;
+}
