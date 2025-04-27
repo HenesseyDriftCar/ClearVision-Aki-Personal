@@ -34,7 +34,7 @@
     --background-shading-percent: 100%;
     --background-image: url(https://i.imgur.com/zU7YY60.jpeg);
     --background-attachment: fixed;
-    --user-popout-image: var(--background-image);
+    --user-popout-image: #00000000;
     --user-popout-attachment: var(--background-attachment);
     --user-modal-image: var(--background-image);
     --user-modal-attachment: var(--background-attachment);
