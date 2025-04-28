@@ -8,8 +8,14 @@
 } */
 
 /* User pop up remove banner for non-nitro users*/
-:where(.banner__68edb:not([style*="background-image"])) {
+/* :where(.banner__68edb:not([style*="background-image"])) {
     background: none !important;
+} */
+
+/* Gradient top banner */
+/* Need to keep banner on top for it to work.... */
+.mask__68edb {
+    mask: linear-gradient(black, transparent);
 }
 
 /* Remove outer padding + remove custom nitro background for nitro user */
@@ -30,11 +36,7 @@
     background: var(--popout-shading);
 } */
 
-/* Gradient top banner */
-/* Might need to delete remove banner on top for it to work.... */
-/* .mask__68edb {
-    mask: linear-gradient(black, transparent);
-} */
+
 
 /* This is something fun.....  */
 /* .outer_c0bea0 .inner_c0bea0 {
