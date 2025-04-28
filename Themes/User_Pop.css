@@ -17,15 +17,18 @@
     
 } */
 
-/* Added background and shading for non-nitro user (FIXED BY CV TEAM) */
-/* .outer_c0bea0:not(.custom-user-profile-theme) {
-    background: var(--background-image) no-repeat center center / cover !important;
-    padding: 0;
+/* Real transparent user pop for non-nitro user */
+.outer_c0bea0:not(.custom-user-profile-theme) {
+    background: transparent;
 }
 
-.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
-    background: var(--card-shading) !important;
-} */
+.fullscreenOnMobile__49fc1 .outer_c0bea0:not(.custom-user-profile-theme) {
+    background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.3));
+}
+
+.animatorRight_faf9c0 .outer_c0bea0:not(.custom-user-profile-theme) {
+    background: var(--popout-shading);
+}
 
 /* Gradient top banner */
 /* Might need to delete remove banner on top for it to work.... */
