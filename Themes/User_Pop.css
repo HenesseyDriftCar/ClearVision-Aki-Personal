@@ -18,7 +18,7 @@
 }
 
 /* Real transparent user pop for non-nitro user */
-.outer_c0bea0:not(.custom-user-profile-theme) {
+/* .outer_c0bea0:not(.custom-user-profile-theme) {
     background: transparent;
 }
 
@@ -28,7 +28,7 @@
 
 .animatorRight_faf9c0 .outer_c0bea0:not(.custom-user-profile-theme) {
     background: var(--popout-shading);
-}
+} */
 
 /* Gradient top banner */
 /* Might need to delete remove banner on top for it to work.... */
