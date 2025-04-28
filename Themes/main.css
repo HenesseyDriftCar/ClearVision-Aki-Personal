@@ -14,10 +14,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Consolas');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@550&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@540&display=swap');
+/* @import url('https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css'); */
 
-/* @import url('https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css');
- *
- * / ** SETTINGS */
+/* SETTINGS */
 :root {
   /* ACCENT COLORS */
   --main-color: #2780e6;
@@ -98,10 +97,6 @@
 }
 
 /* ------------------------------ ADD ADDITIONAL CSS BELOW HERE ------------------------------ */
-
-/* .container_c48ade {
- * --custom-chat-input-margin-bottom: 5px;
- } * */
 
 /* WINDOWS TOP BAR */
 .title_c38106 {
