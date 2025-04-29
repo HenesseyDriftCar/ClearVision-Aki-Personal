@@ -15,7 +15,7 @@
 /* Gradient top banner */
 /* Need to keep banner on top for it to work.... */
 .mask__68edb {
-    mask: linear-gradient(black, transparent);
+    mask: linear-gradient(black -5%, 0%, transparent);
 }
 
 /* Remove outer padding + remove custom nitro background for nitro user */
