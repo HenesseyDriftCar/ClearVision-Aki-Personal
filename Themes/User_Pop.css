@@ -12,9 +12,9 @@
     background: none !important;
 } */
 
-/* Gradient top banner */
+/* Gradient top banner for non-nitro only */
 /* Need to keep banner on top for it to work.... */
-.mask__68edb {
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 .mask__68edb {
     mask: linear-gradient(black -5%, 0%, transparent);
 }
 
