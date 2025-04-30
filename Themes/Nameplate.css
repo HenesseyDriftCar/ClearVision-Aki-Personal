@@ -91,3 +91,39 @@
 .container__4bbc6:has(.videoContainer__4bbc6 video[src$="angels/asset.webm"]) {
     background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
 }
+
+
+
+/* THIS IS A TEMP FIX BECAUSE DISCORD SUDDENLY ACTED UP */
+
+.img__4bbc6 {
+    mask-image: none !important;
+}
+
+/* ------- Twilight ------- */
+.container__4bbc6:has(img[src$="twilight/static.png"]) {
+    background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
+}
+
+/* ------- Cherry blossoms ------- */
+.container__4bbc6:has(img[src$="cherry_blossoms/static.png"]) {
+    background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
+}
+
+/* ------- Spirit of spring + Koi pond ------- */
+.container__4bbc6:has(img[src$="spirit_of_spring/static.png"]),
+.container__4bbc6:has(img[src$="koi_pond/static.png"]) {
+    background: linear-gradient(270deg, rgba(0, 128, 183, 0.1) 0%, rgba(0, 128, 183, 0.4) 100%) !important;
+}
+
+/* ------- Cityscape + Cat beans + Vengeance ------- */
+.container__4bbc6:has(img[src$="cityscape/static.png"]),
+.container__4bbc6:has(img[src$="cat_beans/static.png"]),
+.container__4bbc6:has(img[src$="vengeance/static.png"]) {
+    background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
+}
+
+/* ------- Angels ------- */
+.container__4bbc6:has(img[src$="angels/static.png"]) {
+    background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
+}
