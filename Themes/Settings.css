@@ -6,3 +6,8 @@
 .header_c6bf1b {
     background: none !important;
 }
+
+/* Server setting when click on web invitation link */
+.visual-refresh .editProfileContainer__42179 {
+    background: var(--card-shading);
+}
