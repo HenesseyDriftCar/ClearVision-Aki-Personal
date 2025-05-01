@@ -10,7 +10,7 @@
     padding-right: 5px;
 }
 
-/* Compact */
+/* Server panel appear behind user panel */
 nav.guilds_c48ade {
     margin-bottom: 0 !important;
 }
@@ -24,6 +24,7 @@ nav.guilds_c48ade {
     border-bottom: 1px solid rgba(225, 240, 253, 0.123);
 }
 
+/* ------------------------ VOICE CHAT ------------------------ */
 /* Voice chat panel border */
 .wrapper_e131a9 {
     border-bottom: 1px solid rgba(225, 240, 253, 0.123);
@@ -32,4 +33,11 @@ nav.guilds_c48ade {
 /* Voice chat button */
 .visual-refresh .button_e131a9.buttonColor_e131a9.buttonColor_e131a9 {
     background: rgba(255, 255, 255, 0.089);
+}
+
+/* In voice chat streaming button */
+.visual-refresh .button_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
+    background: hsl(from var(--success-color) h s l / 0.4);
+    color: var(--button-secondary-text);
+    border-color: hsl(from var(--success-color) h s l / 0.5);
 }
