@@ -58,41 +58,42 @@
 
 
 /* --------------------------- SPECIFIC NAMEPLATE --------------------------- */
+.theme-dark {
 
-/* ------- Twilight ------- */
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]) {
-    background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
+    /* ------- Twilight ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]) {
+        background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
+    }
+
+    /* Dip User Panel a bit (this nameplate a bit too bright) */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]) .img__4bbc6.account__4bbc6 {
+        opacity: 0.8;
+    }
+
+    /* ------- Cherry blossoms ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cherry_blossoms/asset.webm"]) {
+        background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
+    }
+
+    /* ------- Spririt of spring + Koi pond ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="spirit_of_spring/asset.webm"]),
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="koi_pond/asset.webm"]) {
+        background: linear-gradient(270deg, rgba(0, 128, 183, 0.1) 0%, rgba(0, 128, 183, 0.4) 100%) !important;
+    }
+
+    /* ------- Cityscape + Cat beans + Vengeance ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cityscape/asset.webm"]),
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cat_beans/asset.webm"]),
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="vengeance/asset.webm"]) {
+        background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
+    }
+
+    /* ------- Angels ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="angels/asset.webm"]) {
+        background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
+    }
+
 }
-
-/* Dip User Panel a bit (this nameplate a bit too bright) */
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]) .img__4bbc6.account__4bbc6 {
-    opacity: 0.8;
-}
-
-/* ------- Cherry blossoms ------- */
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="cherry_blossoms/asset.webm"]) {
-    background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
-}
-
-/* ------- Spririt of spring + Koi pond ------- */
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="spirit_of_spring/asset.webm"]),
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="koi_pond/asset.webm"]) {
-    background: linear-gradient(270deg, rgba(0, 128, 183, 0.1) 0%, rgba(0, 128, 183, 0.4) 100%) !important;
-}
-
-/* ------- Cityscape + Cat beans + Vengeance ------- */
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="cityscape/asset.webm"]),
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="cat_beans/asset.webm"]),
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="vengeance/asset.webm"]) {
-    background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
-}
-
-/* ------- Angels ------- */
-.container__4bbc6:has(.videoContainer__4bbc6 video[src$="angels/asset.webm"]) {
-    background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
-}
-
-
 
 /* THIS ONE WILL WORK FOR USER WITH REDUCED MOTION SETTINGS */
 
