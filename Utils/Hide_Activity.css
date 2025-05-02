@@ -1,8 +1,5 @@
 /* Hide activity header */
-.visual-refresh .membersGroup_c8ffbb:has(.headerContainer__095fe) {
-    display: none;
-}
-
+.visual-refresh .membersGroup_c8ffbb:has(.headerContainer__095fe),
 /* Hide member's activities */
 .visual-refresh .container__0f2e8 {
     display: none;

@@ -11,6 +11,10 @@
     mask-image: none !important;
 }
 
+.img__4bbc6 {
+    mask-image: none !important;
+}
+
 /* --------------------------- USER PANEL --------------------------- */
 .panels_c48ade:has(.activityPanel_c48ade) .container__4bbc6,
 .panels_c48ade:has(.container_e131a9) .container__4bbc6 {
@@ -61,7 +65,8 @@
 .theme-dark {
 
     /* ------- Twilight ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]) {
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]),
+    .container__4bbc6:has(img[src$="twilight/static.png"]) {
         background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
     }
 
@@ -71,60 +76,36 @@
     }
 
     /* ------- Cherry blossoms ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cherry_blossoms/asset.webm"]) {
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cherry_blossoms/asset.webm"]),
+    .container__4bbc6:has(img[src$="cherry_blossoms/static.png"]) {
         background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
     }
 
     /* ------- Spririt of spring + Koi pond ------- */
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="spirit_of_spring/asset.webm"]),
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="koi_pond/asset.webm"]) {
+    .container__4bbc6:has(img[src$="spirit_of_spring/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="koi_pond/asset.webm"]),
+    .container__4bbc6:has(img[src$="koi_pond/static.png"]) {
         background: linear-gradient(270deg, rgba(0, 128, 183, 0.1) 0%, rgba(0, 128, 183, 0.4) 100%) !important;
     }
 
     /* ------- Cityscape + Cat beans + Vengeance ------- */
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cityscape/asset.webm"]),
+    .container__4bbc6:has(img[src$="cityscape/static.png"]),
+
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cat_beans/asset.webm"]),
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="vengeance/asset.webm"]) {
+    .container__4bbc6:has(img[src$="cat_beans/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="vengeance/asset.webm"]),
+    .container__4bbc6:has(img[src$="vengeance/static.png"]) {
         background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
     }
 
     /* ------- Angels ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="angels/asset.webm"]) {
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="angels/asset.webm"]),
+    .container__4bbc6:has(img[src$="angels/static.png"]) {
         background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
     }
 
-}
-
-/* THIS ONE WILL WORK FOR USER WITH REDUCED MOTION SETTINGS */
-
-.img__4bbc6 {
-    mask-image: none !important;
-}
-
-/* ------- Twilight ------- */
-.container__4bbc6:has(img[src$="twilight/static.png"]) {
-    background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
-}
-
-/* ------- Cherry blossoms ------- */
-.container__4bbc6:has(img[src$="cherry_blossoms/static.png"]) {
-    background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
-}
-
-/* ------- Spirit of spring + Koi pond ------- */
-.container__4bbc6:has(img[src$="spirit_of_spring/static.png"]),
-.container__4bbc6:has(img[src$="koi_pond/static.png"]) {
-    background: linear-gradient(270deg, rgba(0, 128, 183, 0.1) 0%, rgba(0, 128, 183, 0.4) 100%) !important;
-}
-
-/* ------- Cityscape + Cat beans + Vengeance ------- */
-.container__4bbc6:has(img[src$="cityscape/static.png"]),
-.container__4bbc6:has(img[src$="cat_beans/static.png"]),
-.container__4bbc6:has(img[src$="vengeance/static.png"]) {
-    background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
-}
-
-/* ------- Angels ------- */
-.container__4bbc6:has(img[src$="angels/static.png"]) {
-    background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
 }
