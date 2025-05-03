@@ -108,3 +108,17 @@
     color: rgb(255, 64, 64);
     font-weight: 600;
 }
+
+/* --------------------- Forum --------------------- */
+
+/* Thread border */
+.visual-refresh .container__01ae2 {
+    border-bottom-left-radius: 10px;
+    border-left: 1px solid rgba(225, 240, 253, 0.123);
+}
+
+/* Chat border */
+.visual-refresh .chat_f75fb0.threadSidebarOpen_f75fb0 {
+    border-bottom-right-radius: 10px;
+    border-right: 1px solid rgba(225, 240, 253, 0.123);
+}
