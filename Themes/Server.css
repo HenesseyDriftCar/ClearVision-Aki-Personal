@@ -33,6 +33,14 @@
     border-radius: 50%;
 }
 
+/* Server hover + selected */
+.wrapper__6e9f8.selected__6e9f8 .icon__6e9f8 {
+    border-radius: 10px;
+    transition: border-radius 0.5s ease;
+}
+
+
+
 /* Server unread + hover */
 /* .item__58105 {} */
 
