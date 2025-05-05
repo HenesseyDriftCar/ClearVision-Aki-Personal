@@ -39,6 +39,13 @@
     transition: border-radius 0.5s ease;
 }
 
+/* Server folder border */
+.isExpanded__48112 .folderGroupBackground__48112 {
+    opacity: 1;
+    border: 2px solid;
+    border-color: var(--main-color);
+}
+
 
 
 /* Server unread + hover */
