@@ -55,11 +55,7 @@
 }
 
 /* Username in chat */
-.username_c19a55 {
-    font-weight: 900;
-}
-
-/* Bold text(**text**) weight max */
+.username_c19a55,
 .markup__75297 strong {
     font-weight: 900;
 }
@@ -70,12 +66,9 @@
 }
 
 /* Divider for new chat */
-.unreadPill__908e2 {
-    background-color: var(--main-color);
-}
-
+.unreadPill__908e2,
 .divider__908e2:has(.unreadPill__908e2) {
-    --divider-color: var(--main-color);
+    background-color: var(--main-color);
 }
 
 /* Server Invite link display */
