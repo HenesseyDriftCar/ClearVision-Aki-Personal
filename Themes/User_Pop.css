@@ -32,11 +32,11 @@
     background: var(--card-shading);
 }
 
-/* 
 .fullscreenOnMobile__49fc1 .outer_c0bea0:not(.custom-user-profile-theme) {
-    background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.3));
+    background: var(--popout-shading);
 }
 
+/* 
 .animatorRight_faf9c0 .outer_c0bea0:not(.custom-user-profile-theme) {
     background: var(--popout-shading);
 } */
