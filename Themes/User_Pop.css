@@ -28,13 +28,13 @@
 }
 
 /* Shading user pop for non-nitro user */
-.outer_c0bea0:not(.custom-user-profile-theme) {
+/* .outer_c0bea0:not(.custom-user-profile-theme) {
     background: var(--card-shading);
 }
 
 .fullscreenOnMobile__49fc1 .outer_c0bea0:not(.custom-user-profile-theme) {
     background: var(--popout-shading);
-}
+} */
 
 /* 
 .animatorRight_faf9c0 .outer_c0bea0:not(.custom-user-profile-theme) {
