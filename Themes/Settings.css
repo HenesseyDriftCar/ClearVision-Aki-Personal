@@ -8,3 +8,8 @@
 .visual-refresh .editProfileContainer__42179 {
     background: var(--card-shading);
 }
+
+/* No separator in settings */
+.visual-refresh .separator_b3f026 {
+    display: none;
+}
