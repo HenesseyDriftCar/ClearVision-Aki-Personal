@@ -27,11 +27,12 @@
     padding: 0;
 }
 
-/* Real transparent user pop for non-nitro user */
-/* .outer_c0bea0:not(.custom-user-profile-theme) {
-    background: transparent;
+/* Shading user pop for non-nitro user */
+.outer_c0bea0:not(.custom-user-profile-theme) {
+    background: var(--card-shading);
 }
 
+/* 
 .fullscreenOnMobile__49fc1 .outer_c0bea0:not(.custom-user-profile-theme) {
     background: hsl(from var(--hsl-background-shading) h s l / calc(var(--background-shading-percent)* 0.3));
 }
