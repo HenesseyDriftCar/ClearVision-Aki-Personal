@@ -23,29 +23,52 @@
   --hover-color: #1e63b3;
   --success-color: #43b581;
   --danger-color: #982929;
+
   /* STATUS COLORS */
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
+
   /* BACKGROUND IMAGES */
   --background-shading-percent: 100%;
   --background-image: url(https://i.imgur.com/zU7YY60.jpeg);
+  --background-position: center;
+  --background-size: cover;
   --background-attachment: fixed;
-  --user-popout-image: transparent;
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+
+  /* USER POPOUT */
+  --user-popout-image: var(--background-image);
+  --user-popout-position: var(--background-position);
+  --user-popout-size: var(--background-size);
   --user-popout-attachment: var(--background-attachment);
+  --user-popout-filter: var(--background-filter);
   --user-modal-image: var(--background-image);
+  --user-modal-position: var(--background-position);
+  --user-modal-size: var(--background-size);
   --user-modal-attachment: var(--background-attachment);
+  --user-modal-filter: var(--background-filter);
+
   /* HOME ICON */
   --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+  --home-size: cover;
+
   /* FONTS */
   --main-font: "Quicksand", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
-  /* BACKGROUND IMAGE FILTERS */
-  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
-  --user-popout-filter: var(--background-filter);
-  --user-modal-filter: var(--background-filter);
+  --code-font: Menlo, "gg mono", "Liberation Mono", Consolas Courier, monospace;
+
+  /* CHANNELS */
+  --channel-normal: var(--interactive-normal);
+  --channel-muted: var(--interactive-muted);
+  --channel-hover: var(--interactive-hover);
+  --channel-selected: var(--interactive-active);
+  --channel-selected-bg: var(--main-color);
+  --channel-unread: var(--main-color);
+  --channel-unread-hover: var(--hover-color);
+
+  /* SERVER COLUMNS */
   --columns: 2;
   --guildsize: 57;
   --aligndms: 0;
