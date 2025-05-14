@@ -26,7 +26,7 @@ nav.guilds_c48ade {
 
 /* ------------------------ VOICE CHAT ------------------------ */
 /* Voice chat panel border */
-.wrapper_e131a9 {
+.panels_c48ade:not(:has(.container__4bbc6)) .wrapper_e131a9:has(.container_e131a9) {
     border-bottom: 1px solid rgba(225, 240, 253, 0.123);
 }
 
