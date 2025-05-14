@@ -24,7 +24,7 @@
 
 1. Download your preferred version:
 
-   **For Vencord:**
+**For Vencord:**
 
 - [Single Column](https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_SingleColumn.css)
 - [Dual Columns](https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/main/ClearVision-Aki_DualColumns.css)
