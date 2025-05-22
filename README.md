@@ -4,6 +4,9 @@
 
 **Original Theme Repository**: [ClearVision v7](https://github.com/ClearVision/ClearVision-v7)
 
+*New release:*
+**Hyprcord Repository** :[Hyprcord](https://github.com/Getbricked/Hyprcord)
+
 ---
 
 ## Previews
