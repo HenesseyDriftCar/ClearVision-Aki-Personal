@@ -131,7 +131,7 @@
 /* MESSAGE HOVER GRADIENT */
 /* BY DOM IN VENCORD SERVER */
 .message__5126c:hover {
-    background: linear-gradient(to right, var(--hsl-main-color), transparent 120%) !important;
+    background: linear-gradient(to right, var(--hsl-main-color) -80%, transparent 140%) !important;
 }
 
 /* Memberlist */
